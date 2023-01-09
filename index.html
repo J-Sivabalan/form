@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2><u>Registration Form</u></h2>
+        <div class="leftcol">
+            <h4>First Name
+                <br><input type="text" id="fname">
+            </h4>
+            <br><h4><i class="fa-regular fa-envelope"></i> E-mail
+                <br><input type="email" id="mail">
+            </h4>
+            <br><h4>Date of Birth
+                <br><input type="date" id="dob">
+                </h4>
+            <br><h4>Highest Qualification
+                <br><input list="degrees" id="degree">
+                    <datalist id="degrees">
+                        <option value="bachelor's of engineering"></option>
+                        <option value="bachelor's of arts and science"></option>
+                    </h4>
+            <br><h4>Batch
+               <br><input list="year" id="batch">
+               <datalist id="year">
+                <option value="2019"></option> 
+                <option value="2020"></option>
+                <option value="2021"></option>
+                <option value="2022"></option>
+               </datalist>
+                </h4>
+                <div class="rightcol">
+                    <h4>Last Name
+                        <br><input type="text" id="lname">
+                    </h4>
+                    <br><h4><i class="fa-sharp fa-solid fa-phone"></i> Mobile
+                        <br><input type="number" id="number">
+                    </h4>
+                    <br><h4>College Name
+                        <br><input type="text" id="college">
+                        </h4>
+                    <br><h4>Specialization
+                        <br><input type="text" id="Specialization">
+                        </h4>
+                    <br><h4>CGPA
+                       <br><input type="number" id="cgpa">
+                        </h4>    
+        </div>
+        <button>Submit</button>
+    </div>
+</body>
+</html>

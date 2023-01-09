@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: linear-gradient(to top,white,pink);
+}
+.container{
+    border-radius: 30px;
+    margin: 100px 300px;
+    height: 455px;
+    width: 800px;
+    background-color: whitesmoke;
+}
+.container h2{
+    padding: 10px 20px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+.leftcol{
+    margin-left: 20px;
+    font-family: 'Abel', sans-serif;
+}
+.leftcol input{
+        padding: 3.5px;
+}
+.rightcol{
+    margin-left: 510px;
+    margin-top: -324px;
+}
+button{
+    font-family:'Segoe UI';
+    font-weight:500;
+    font-size: 1rem;
+    margin-left: 300px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: palevioletred;
+    box-shadow: 2px 2px 5px black;
+    border-color: aliceblue;
+}
